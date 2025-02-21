@@ -32,4 +32,6 @@ export class User extends Model {
   // ✅ Many-to-Many Association
   @BelongsToMany(() => Project, () => UserProject)
   projects!: Project[];
+  // @BelongsToMany(() => Project, { through: "user_projects" })
+  // projects!: Project[];
 }

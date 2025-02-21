@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run start",
-    "dev":"tsnd --respawn index.ts"
+    "dev": "tsnd --respawn index.ts"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.5",
     "sequelize-cli": "^6.6.2",
-    "sequelize-typescript": "^2.1.6"
+    "sequelize-typescript": "^2.1.6",
+    "uuid": "^11.1.0"
   }
 }
